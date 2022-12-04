@@ -41,7 +41,6 @@ class SearchFlights:
         return self
 
     def increase_infants_passengers_number(self):
-        browser.element('[data-test-id="passengers-field"]').click()
         browser.element('[data-test-id="passengers-infants-field"]>[data-test-id="tooltip-wrapper"]>.additional-fields__passenger-control.--increment').click()
         return self
 
