@@ -1,8 +1,13 @@
 import allure
-
+from allure_commons.types import Severity
 from aviasales_tests.model import app
 
-
+@allure.tag("web")
+@allure.severity(Severity.CRITICAL)
+@allure.label("owner", "VikaMark")
+@allure.feature("Flights search")
+@allure.story("Search of flights without return ticket for 1 adult passenger (economy class)")
+@allure.link("https://aviasales.com", name="Testing")
 def test_1_search_flights_without_return_1passenger_economy():
     with allure.step("Open homepage"):
         app.search_flights.open_site_ready()
@@ -15,6 +20,12 @@ def test_1_search_flights_without_return_1passenger_economy():
     with allure.step("Submit flights search"):
         app.search_flights.submit_search()
 
+@allure.tag("web")
+@allure.severity(Severity.CRITICAL)
+@allure.label("owner", "VikaMark")
+@allure.feature("Flights search")
+@allure.story("Search of flights with return ticket for 2 adult passengers (business class)")
+@allure.link("https://aviasales.com", name="Testing")
 def test_2_search_flights_with_return_2passengers_business():
     with allure.step("Open homepage"):
         app.search_flights.open_site_ready()
@@ -33,6 +44,12 @@ def test_2_search_flights_with_return_2passengers_business():
     with allure.step("Submit flights search"):
         app.search_flights.submit_search()
 
+@allure.tag("web")
+@allure.severity(Severity.CRITICAL)
+@allure.label("owner", "VikaMark")
+@allure.feature("Flights search")
+@allure.story("Search of flights without return ticket for different age passengers (economy class)")
+@allure.link("https://aviasales.com", name="Testing")
 def test_3_search_flights_without_return_family_economy():
     with allure.step("Open homepage"):
         app.search_flights.open_site_ready()
@@ -49,6 +66,12 @@ def test_3_search_flights_without_return_family_economy():
     with allure.step("Submit flights search"):
         app.search_flights.submit_search()
 
+@allure.tag("web")
+@allure.severity(Severity.MINOR)
+@allure.label("owner", "VikaMark")
+@allure.feature("Hotels search")
+@allure.story("Search of hotels for 1 guest")
+@allure.link("https://aviasales.com", name="Testing")
 def test_4_search_hotels_1_guest():
     with allure.step("Open homepage"):
         app.search_flights.open_site_ready()
@@ -61,6 +84,12 @@ def test_4_search_hotels_1_guest():
     with allure.step("Submit hotels search"):
         app.search_flights.submit_hotels_search()
 
+@allure.tag("web")
+@allure.severity(Severity.MINOR)
+@allure.label("owner", "VikaMark")
+@allure.feature("Hotels search")
+@allure.story("Search of hotels for 2 guests")
+@allure.link("https://aviasales.com", name="Testing")
 def test_5_search_hotels_2_guests():
     with allure.step("Open homepage"):
         app.search_flights.open_site_ready()
