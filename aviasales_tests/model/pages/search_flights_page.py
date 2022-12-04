@@ -7,6 +7,7 @@ class SearchFlights:
     def open_site_ready(self):
         browser.open('https://www.aviasales.com')
         browser.element('#origin').clear()
+        browser.element('[data-test-id="checkbox-booking"]').click()
         return self
 
     def fill_from(self, value: str):
