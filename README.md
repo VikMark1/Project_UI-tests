@@ -19,3 +19,24 @@ Python Pytest Selene PyCharm Poetry Selenoid Jenkins GitHub Allure Report Allure
 - [x] Search of tickets only with baggage included
 - [x] Verification of possiblity to buy a ticket
 - [x] Verification of possibility to select a ticket
+
+# Autotests were launched on Jenkins server
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/UI_tests_aviasales/">Link to the project in Jenkins</a>
+
+### Build parameters
+
+* login (default user1)
+* password (default 1234)
+
+### Tests launch in Jenkins
+![This is an image](media/main jenkins.png)
+
+# Tests execution results report
+> <a target="_blank" href="https://jenkins.autotests.cloud/job/UI_tests_aviasales/4/allure/">Link to Allure report</a>
+![This is an image](media/allure report.png)
+
+#### *At the end of autotests execution screenshot, page source, browser logs and test run video are available for every of them.*
+![This is an image](media/test description.png)
+
+#### Graphs report tab
+![This is an image](media/Graphs.png)
