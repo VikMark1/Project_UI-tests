@@ -29,14 +29,14 @@ Python Pytest Selene PyCharm Poetry Selenoid Jenkins GitHub Allure Report Allure
 * password (default 1234)
 
 ### Tests launch in Jenkins
-![This is an image](media/main jenkins.png)
+![This is an image](media/main_jenkins.png)
 
 # Tests execution results report
 > <a target="_blank" href="https://jenkins.autotests.cloud/job/UI_tests_aviasales/4/allure/">Link to Allure report</a>
-![This is an image](media/allure report.png)
+![This is an image](media/allure_report1.png)
 
 #### *At the end of autotests execution screenshot, page source, browser logs and test run video are available for every of them.*
-![This is an image](media/test description.png)
+![This is an image](media/test_description.png)
 
 #### Graphs report tab
 ![This is an image](media/Graphs.png)
