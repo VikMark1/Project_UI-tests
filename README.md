@@ -40,3 +40,13 @@ Python Pytest Selene PyCharm Poetry Selenoid Jenkins GitHub Allure Report Allure
 
 #### Graphs report tab
 ![This is an image](media/Graphs.png)
+
+# Notification with Jenkins build results report is sent automatically to Telegram-bot
+![This is an image](media/telegram_notification.png)
+
+# Allure TestOps project provides test cases (auto and manual) and tests launch data
+![This is an image](media/TestOps_test_cases.png)
+![This is an image](media/TestOps_dashboard.png)
+
+# Autotests and manual test cases as well as information of autotests launches are integrated in Atlassian Jira
+![This is an image](media/Jira.png)
