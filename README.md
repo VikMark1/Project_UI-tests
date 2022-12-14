@@ -4,9 +4,9 @@
 ![This is an image](media/Aviasales_homepage.png)
 
 ## The project is implemented with the use of the following technologies:
-Python Pytest Selene PyCharm Poetry Selenoid Jenkins GitHub Allure Report Allure TestOps Jira
+Python, Pytest, Selene, PyCharm, Poetry, Selenoid, Jenkins, GitHub, Allure Report, Allure TestOps, Jira
 
-![This is an image](media/python.png)![This is an image](media/pytest.png)![This is an image](media/selene.png)![This is an image](media/pycharm.jpeg)![This is an image](media/Poetry.jpeg)![This is an image](media/selenoid.png)![This is an image](media/jenkins_logo.jpeg)![This is an image](media/github.png)![This is an image](media/allure_report.png)![This is an image](media/allure_testops.jpeg)![This is an image](media/jira_logo.jpeg)
+![This is an image](media/python.png)![This is an image](media/pytest.png)![This is an image](media/selene (1).png)![This is an image](media/pycharm.jpeg)![This is an image](media/Poetry.jpeg)![This is an image](media/selenoid.png)![This is an image](media/jenkins_logo.jpeg)![This is an image](media/github.png)![This is an image](media/allure_report.png)![This is an image](media/allure_testops.jpeg)![This is an image](media/jira_logo.jpeg)
 
 #### List of verifications executed in autotests:
 - [x] Search of flights without return ticket for 1 adult passenger (economy class)
