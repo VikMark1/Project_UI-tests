@@ -4,9 +4,17 @@
 ![This is an image](media/Aviasales_homepage.png)
 
 ## The project is implemented with the use of the following technologies:
-Python, Pytest, Selene, PyCharm, Poetry, Selenoid, Jenkins, GitHub, Allure Report, Allure TestOps, Jira
-
-![This is an image](media/python.png)![This is an image](media/pytest.png)![This is an image](media/selene (1).png)![This is an image](media/pycharm.jpeg)![This is an image](media/Poetry.jpeg)![This is an image](media/selenoid.png)![This is an image](media/jenkins_logo.jpeg)![This is an image](media/github.png)![This is an image](media/allure_report.png)![This is an image](media/allure_testops.jpeg)![This is an image](media/jira_logo.jpeg)
+<code><img title="Python" src="media/python.png" width="35"/></code>
+<code><img title="Pycharm" src="media/pycharm.jpeg" width="40"/></code>
+<code><img title="Pytest" src="media/pytest.png" width="35"/></code>
+<code><img title="Poetry" src="media/Poetry.jpeg" width="40"/></code>
+<code><img title="Selene" src="media/selene.png" width="40"/></code>
+<code><img title="Selenoid" src="media/selenoid.png" width="40"/></code>
+<code><img title="Github" src="media/github.png" width="40"/></code>
+<code><img title="Allure Report" src="media/allure_report.png" width="40"/></code>
+<code><img title="Allure TestOps" src="media/allure_testops.jpeg" width="40"/></code>
+<code><img title="Jenkins" src="media/jenkins_logo.jpeg" width="40"/></code>
+<code><img title="Jira" src="media/jira_logo.jpeg" width="40"/></code>
 
 #### List of verifications executed in autotests:
 - [x] Search of flights without return ticket for 1 adult passenger (economy class)
